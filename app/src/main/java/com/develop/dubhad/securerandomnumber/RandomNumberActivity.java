@@ -63,7 +63,7 @@ public class RandomNumberActivity extends Activity {
 
     private void signalError(String message, String info) {
         Log.e(getClass().getSimpleName(), info);
-        generateButton.setText(R.string.error);
+        generateButton.setText(R.string.error_title);
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 }
