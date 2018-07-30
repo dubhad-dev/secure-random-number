@@ -4,4 +4,8 @@
     <string name="default_gen_title">Generate</string>
     <string name="default_start_value">0</string>
     <string name="default_end_value">100</string>
+
+    <string name="error">ERROR</string>
+    <string name="bounds_error">Enter the bounds</string>
+    <string name="overflow_error">Number is too big</string>
 </resources>
