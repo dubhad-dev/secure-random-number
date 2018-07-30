@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RandomNumberActivity">
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_gen_title"
+        android:minWidth="100dp"
+        android:onClick="generateRandomNumber"/>
+
+    <EditText
+        android:id="@+id/minValueEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/generateButton"
+        android:layout_toLeftOf="@+id/generateButton"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/maxValueEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/generateButton"
+        android:layout_toRightOf="@+id/generateButton"
+        android:inputType="numberSigned" />
+
+</RelativeLayout>

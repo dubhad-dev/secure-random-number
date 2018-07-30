@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Secure Random Number</string>
+
+    <string name="default_gen_title">Generate</string>
+</resources>
