@@ -15,21 +15,23 @@
         android:onClick="generateRandomNumber"/>
 
     <EditText
-        android:id="@+id/minValueEdit"
+        android:id="@+id/startValueEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toStartOf="@+id/generateButton"
         android:layout_toLeftOf="@+id/generateButton"
+        android:text="@string/default_start_value"
         android:inputType="numberSigned" />
 
     <EditText
-        android:id="@+id/maxValueEdit"
+        android:id="@+id/endValueEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toEndOf="@+id/generateButton"
         android:layout_toRightOf="@+id/generateButton"
+        android:text="@string/default_end_value"
         android:inputType="numberSigned" />
 
 </RelativeLayout>
