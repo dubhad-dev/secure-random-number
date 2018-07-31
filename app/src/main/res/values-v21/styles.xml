@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar.Fullscreen">
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="button" parent="@android:style/Widget.Material.Button">
-        <item name="android:background">@drawable/button_pressed</item>
+    <style name="RoundButton" parent="@android:style/Widget.Material.Button">
+        <item name="android:background">@drawable/round_button</item>
     </style>
 </resources>

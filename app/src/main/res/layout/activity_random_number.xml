@@ -7,7 +7,7 @@
 
     <Button
         android:id="@+id/generateButton"
-        style="@style/button"
+        style="@style/RoundButton"
         android:textSize="20sp"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"

@@ -7,7 +7,7 @@
     <string name="start_value_hint">Start</string>
     <string name="end_value_hint">End</string>
 
-    <string name="error_title">ERROR</string>
+    <string name="error_title">Error</string>
     <string name="bounds_error">Enter the bounds</string>
     <string name="overflow_error">Number is too big</string>
 </resources>

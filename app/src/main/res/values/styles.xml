@@ -1,6 +1,10 @@
 <resources>
 
-    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@color/grey</item>
+    </style>
+
+    <style name="RoundButton" parent="@android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/round_button</item>
     </style>
 </resources>
