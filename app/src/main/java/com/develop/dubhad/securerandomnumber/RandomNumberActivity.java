@@ -55,9 +55,9 @@ public class RandomNumberActivity extends Activity {
         SecureRandom rand = new SecureRandom();
         int number;
         if (startValue > endValue)
-            number = rand.nextInt(startValue - endValue) + endValue;
+            number = rand.nextInt(startValue - endValue + 1) + endValue;
         else
-            number = rand.nextInt(endValue - startValue) + startValue;
+            number = rand.nextInt(endValue - startValue + 1) + startValue;
         return number;
     }
 
